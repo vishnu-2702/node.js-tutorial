@@ -1,0 +1,11 @@
+//CommonJS, every file in module (by default)
+//modules - Encapsulated Code (only share mininum)
+const names = require('./4-names')
+const sayHi = require('./5-utils')
+const data = require('./6-alternative-flavor')
+require('./7-mind-granade')
+
+console.log(data)
+sayHi('vishnu')
+sayHi(names.john)
+sayHi(names.peter)
