@@ -1,4 +1,4 @@
-// nom - global command, come with node
+// npm - global command, come with node
 // npm --versions 
 // npm --v
 
