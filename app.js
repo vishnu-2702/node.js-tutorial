@@ -12,3 +12,12 @@
 // manual approach ( create a package.json in the roor, create properties etc)
 // npm init (step by step, press enter to skip)
 // npm init -y (everything is default)
+
+//Eg npm i lodash
+
+const _= require('lodash')
+
+const items = [1,[2,[3,[4]]]]
+
+const newItems = _.flattenDeep(items)
+console.log(newItems)
